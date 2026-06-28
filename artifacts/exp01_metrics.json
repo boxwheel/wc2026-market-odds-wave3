@@ -1,0 +1,40 @@
+{
+  "description": "Wave-3 Full Market-Odds Coverage experiments",
+  "n_matches": 64,
+  "n_folds": 50,
+  "cv": "5x10 RepeatedStratifiedKFold seed=0",
+  "coverage": {
+    "polymarket": 56,
+    "p_model_imputed": 8
+  },
+  "results": {
+    "elo_baseline": {
+      "mean": 0.8337,
+      "std": 0.134
+    },
+    "market_64_fixed": {
+      "mean": 0.85,
+      "std": 0.1094
+    },
+    "market_56_base_imp": {
+      "mean": 0.8337,
+      "std": 0.1019
+    },
+    "market_elo_blend_A": {
+      "mean": 0.8393,
+      "std": 0.1034
+    },
+    "market_elo_blend_B": {
+      "mean": 0.8381,
+      "std": 0.085
+    },
+    "market_elo_blend_C": {
+      "mean": 0.8237,
+      "std": 0.102
+    }
+  },
+  "campaign_baselines": {
+    "elo_logistic": 0.8337,
+    "wave2_ensemble": 0.7608
+  }
+}

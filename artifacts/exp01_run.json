@@ -1,0 +1,18 @@
+{
+  "script": "code/market_experiment.py",
+  "command": "python3 code/market_experiment.py",
+  "features": {
+    "market_probs": "Polymarket pre-match de-vigged 1X2 probs (56/64); p_model for 8 missing",
+    "elo_diff": "home_elo - away_elo from teams.csv",
+    "host_adv": "is_host flag (MEX/USA/CAN)"
+  },
+  "packages": {
+    "sklearn": "1.9.0",
+    "scipy": "installed",
+    "numpy": "installed"
+  },
+  "seed": 0,
+  "cv": "5-fold x 10-repeat RepeatedStratifiedKFold",
+  "data_source_market": "amirdaraee/world-cup-predictions GitHub (wc26_predictions.json)",
+  "data_source_fifa": "mominullptr/fifa-world-cup-2026-dataset"
+}
