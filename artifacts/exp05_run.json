@@ -1,0 +1,16 @@
+{
+  "experiment": "exp05_stacking",
+  "date": "2026-06-28",
+  "python": "3.x",
+  "sklearn": "1.9.0",
+  "base_learners": [
+    "market(pretrained)",
+    "elo_logistic",
+    "rank_logistic",
+    "squad+elo_logistic"
+  ],
+  "meta_learner": "LogisticRegression(nested C sweep)",
+  "seed": 0,
+  "market_coverage": 64,
+  "data_source": "polymarket_raw.json + matches_detailed.csv + squads_and_players.csv"
+}

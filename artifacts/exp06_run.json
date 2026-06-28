@@ -1,0 +1,10 @@
+{
+  "experiment": "exp06_xgb_dirichlet",
+  "date": "2026-06-28",
+  "xgboost": "3.3.0",
+  "lightgbm": "4.6.0",
+  "sklearn": "1.9.0",
+  "seed": 0,
+  "market_coverage": 64,
+  "data_source": "polymarket_raw.json + matches_detailed.csv + squads_and_players.csv"
+}

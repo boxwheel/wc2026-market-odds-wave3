@@ -1,0 +1,37 @@
+{
+  "experiment": "exp05_stacking",
+  "cv": "RepeatedStratifiedKFold(n_splits=5, n_repeats=10, random_state=0)",
+  "n_matches": 64,
+  "results": {
+    "5a_stacker_4learner": {
+      "log_loss": 0.8364954961927444,
+      "std": 0.18569293558699979,
+      "wilcoxon_p": 0.326386097623641
+    },
+    "5b_stacker_3learner": {
+      "log_loss": 0.8301541229935548,
+      "std": 0.14866283265384725,
+      "wilcoxon_p": 0.2860430707407948
+    },
+    "5c_learned_log_opinion_pool": {
+      "log_loss": 0.8991438168831063,
+      "std": 0.22025956448285425,
+      "wilcoxon_p": 0.9999851263273909
+    },
+    "5d_mlp8": {
+      "log_loss": 0.9100522628943688,
+      "std": 0.1754654396972456,
+      "wilcoxon_p": 0.9999947740899069
+    },
+    "5e_market_structural_direct": {
+      "log_loss": 0.8414848546437612,
+      "std": 0.16436665845266535,
+      "wilcoxon_p": 0.631169731098078
+    }
+  },
+  "best_label": "5b_stacker_3learner",
+  "best_log_loss": 0.8301541229935548,
+  "baseline_log_loss": 0.8337,
+  "wave2_frontier": 0.7608,
+  "prior_best_exp04": 0.8
+}

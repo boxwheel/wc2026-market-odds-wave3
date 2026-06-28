@@ -1,0 +1,37 @@
+{
+  "experiment": "exp06_xgb_dirichlet",
+  "cv": "RepeatedStratifiedKFold(n_splits=5, n_repeats=10, random_state=0)",
+  "n_matches": 64,
+  "results": {
+    "6a_dirichlet_calib_3way": {
+      "log_loss": 0.8832884756027277,
+      "std": 0.2427460327530881,
+      "wilcoxon_p": 0.9957061321817466
+    },
+    "6b_xgb_mkt_blend": {
+      "log_loss": 0.8697988131152864,
+      "std": 0.07483126347792447,
+      "wilcoxon_p": 0.9981683726736676
+    },
+    "6c_lgb_mkt_blend": {
+      "log_loss": 0.8655476974713986,
+      "std": 0.08951362853762412,
+      "wilcoxon_p": 0.9983972896748252
+    },
+    "6d_xgb_mkt_struct": {
+      "log_loss": 0.9389632204822728,
+      "std": 0.04826919666599829,
+      "wilcoxon_p": 0.9999999788179839
+    },
+    "6f_committee": {
+      "log_loss": 0.8089071829882839,
+      "std": 0.10686481844981906,
+      "wilcoxon_p": 0.0020219739843749807
+    }
+  },
+  "best_label": "6f_committee",
+  "best_log_loss": 0.8089071829882839,
+  "baseline_log_loss": 0.8337,
+  "wave2_frontier": 0.7608,
+  "prior_best_exp04": 0.8
+}

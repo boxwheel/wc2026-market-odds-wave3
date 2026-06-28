@@ -1,0 +1,20 @@
+{
+  "experiment": "exp08_wave2_replication",
+  "cv": "RepeatedStratifiedKFold(n_splits=5, n_repeats=10, random_state=0)",
+  "n_matches": 64,
+  "results": {
+    "8a_4model_stack": {
+      "log_loss": 0.8684304892011834,
+      "std": 0.26198829448305017,
+      "wilcoxon_p": 0.8032527121825925
+    },
+    "8b_5model_stack_mkt": {
+      "log_loss": 0.8609000793549498,
+      "std": 0.26705315857037415,
+      "wilcoxon_p": 0.5266969005085285
+    }
+  },
+  "wave2_target": 0.7608,
+  "prior_best_exp04": 0.8,
+  "wave2_replicated": false
+}

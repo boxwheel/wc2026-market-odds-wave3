@@ -1,0 +1,5 @@
+{
+  "experiment": "exp08_wave2_replication",
+  "date": "2026-06-28",
+  "approach": "single-level RSKF stacking, 4 base learners + market"
+}

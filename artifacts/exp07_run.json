@@ -1,0 +1,12 @@
+{
+  "experiment": "exp07_precision_calib",
+  "date": "2026-06-28",
+  "key_approaches": [
+    "exact_alpha_nelder_mead",
+    "per_class_temperature",
+    "dual_alpha_covered_vs_imputed",
+    "market_elo_disagreement_correction"
+  ],
+  "seed": 0,
+  "data_source": "polymarket_raw.json + matches_detailed.csv + squads_and_players.csv"
+}

@@ -1,0 +1,37 @@
+{
+  "experiment": "exp07_precision_calib",
+  "cv": "RepeatedStratifiedKFold(n_splits=5, n_repeats=10, random_state=0)",
+  "n_matches": 64,
+  "results": {
+    "7a_exact_alpha": {
+      "log_loss": 0.8316089778298488,
+      "std": 0.11393527176409889,
+      "wilcoxon_p": 0.6940745162225044
+    },
+    "7b_perclass_T": {
+      "log_loss": 0.8294455927891933,
+      "std": 0.18454558077497643,
+      "wilcoxon_p": 0.10223809740860901
+    },
+    "7c_dual_alpha": {
+      "log_loss": 0.8233557915368821,
+      "std": 0.10908435317721794,
+      "wilcoxon_p": 0.24215161595515244
+    },
+    "7d_exact_alpha_T": {
+      "log_loss": 0.8423812666758106,
+      "std": 0.1545728201477385,
+      "wilcoxon_p": 0.9045201278189072
+    },
+    "7e_disagree_corr": {
+      "log_loss": 0.8270144033211563,
+      "std": 0.12337760899700076,
+      "wilcoxon_p": 0.27633348853032214
+    }
+  },
+  "best_label": "7c_dual_alpha",
+  "best_log_loss": 0.8233557915368821,
+  "baseline_log_loss": 0.8337,
+  "wave2_frontier": 0.7608,
+  "prior_best_exp04": 0.8
+}
