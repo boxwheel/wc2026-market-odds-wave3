@@ -1,0 +1,12 @@
+{
+  "script": "code/exp02_elo_calibrated_imputation.py",
+  "command": "python3 code/exp02_elo_calibrated_imputation.py",
+  "seed": 0,
+  "cv": "5x10 RepeatedStratifiedKFold",
+  "key_methods": [
+    "Elo-calibrated imputation for 8 missing",
+    "Geometric mean log-opinion-pool blend",
+    "56-match subset Wilcoxon test",
+    "C-sweep logistic blend"
+  ]
+}

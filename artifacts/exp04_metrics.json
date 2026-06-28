@@ -1,0 +1,35 @@
+{
+  "n_matches": 64,
+  "cv": "5x10 RepeatedStratifiedKFold seed=0",
+  "elo_baseline": {
+    "mean": 0.8337,
+    "std": 0.134
+  },
+  "3way_best": {
+    "mean": 0.8042,
+    "std": 0.0999,
+    "alpha1": 0.45,
+    "alpha2": 0.4
+  },
+  "4way_best": {
+    "mean": 0.8338,
+    "std": 0.0833
+  },
+  "temp_scaled_3way": {
+    "mean": 0.8,
+    "std": 0.1238
+  },
+  "shin_elo_blend": {
+    "mean": 0.8075,
+    "std": 0.1226
+  },
+  "devig_comparison_56matches": {
+    "polymarket_orig": 0.8104,
+    "proportional": 0.8162,
+    "shin": 0.8071
+  },
+  "campaign_baselines": {
+    "elo": 0.8337,
+    "wave2_ensemble": 0.7608
+  }
+}

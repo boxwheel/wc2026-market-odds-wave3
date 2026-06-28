@@ -1,0 +1,36 @@
+{
+  "n_matches": 64,
+  "cv": "5x10 RepeatedStratifiedKFold seed=0",
+  "elo_baseline": {
+    "mean": 0.8337,
+    "std": 0.134
+  },
+  "squad_elo": {
+    "mean": 0.8259,
+    "std": 0.102
+  },
+  "4model_ensemble_arith": {
+    "mean": 0.8317,
+    "std": 0.097
+  },
+  "4model_ensemble_geom": {
+    "mean": 0.828,
+    "std": 0.1026
+  },
+  "market_elo_geom04": {
+    "mean": 0.8115,
+    "std": 0.1171
+  },
+  "market_4gEns_geom0.3": {
+    "mean": 0.817,
+    "std": 0.0996
+  },
+  "market_elo_squad_3way": {
+    "mean": 0.8071,
+    "std": 0.1001
+  },
+  "campaign_baselines": {
+    "elo": 0.8337,
+    "wave2_ensemble": 0.7608
+  }
+}

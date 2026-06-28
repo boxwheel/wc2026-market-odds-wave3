@@ -1,0 +1,44 @@
+{
+  "n_matches": 64,
+  "n_covered": 56,
+  "cv": "5x10 RepeatedStratifiedKFold seed=0",
+  "elo_baseline": {
+    "mean": 0.8337,
+    "std": 0.134
+  },
+  "market_elo_calibrated_imputed": {
+    "mean": 0.8601,
+    "std": 0.1146
+  },
+  "geom_blend_best": {
+    "mean": 0.8155,
+    "std": 0.1189,
+    "alpha": 0.4
+  },
+  "best_logistic_blend": {
+    "mean": 0.8395,
+    "std": 0.1035,
+    "C": 0.1
+  },
+  "market_56_subset": {
+    "mean": 0.8099,
+    "std": 0.1014
+  },
+  "elo_56_subset": {
+    "mean": 0.845,
+    "std": 0.1708
+  },
+  "campaign_baselines": {
+    "elo_logistic": 0.8337,
+    "wave2_ensemble": 0.7608
+  },
+  "alpha_sweep": {
+    "0.0": 0.828,
+    "0.2": 0.8178,
+    "0.4": 0.8155,
+    "0.5": 0.8176,
+    "0.6": 0.8219,
+    "0.8": 0.8379,
+    "1.0": 0.8652
+  }
+}

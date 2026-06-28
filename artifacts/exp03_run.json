@@ -1,0 +1,9 @@
+{
+  "script": "code/exp03_market_ensemble.py",
+  "seed": 0,
+  "key_methods": [
+    "4-model base ensemble",
+    "market+4gEns geom blend",
+    "3-way blend"
+  ]
+}

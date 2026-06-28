@@ -1,0 +1,9 @@
+{
+  "script": "code/exp04_fine_tuned.py",
+  "seed": 0,
+  "key_methods": [
+    "3-way alpha grid search",
+    "Shin de-vig",
+    "temperature scaling"
+  ]
+}
